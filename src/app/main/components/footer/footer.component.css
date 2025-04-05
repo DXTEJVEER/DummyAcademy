@@ -1,0 +1,11 @@
+.text-white-50 {
+  color: #000 !important;
+}
+
+.text-white {
+  color: #000 !important;
+}
+.btn.btn-bordered-white {
+  background: #3c5464 none repeat scroll 0 0;
+  border: 2px solid #58d1fa;
+}

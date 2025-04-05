@@ -1,0 +1,76 @@
+.btn-bordered-white {
+  border: 2px solid #58d1fa;
+  background: #3c5464;
+}
+.btn.btn-bordered-white:after {
+  background: #ebcc59;
+}
+.btn.btn-bordered:before {
+  background: #ebcc59;
+}
+
+.nav-link {
+  color: #3c5464;
+}
+.navbar-expand .navbar-nav .nav-link{
+  font-size: 20px;
+}
+
+/*Style code for  signup buttons*/
+.gray-colored-button {
+  background: #3c5464 !important;
+  border: 2px solid #58d1fa;
+}
+.gray-colored-button:hover {
+  /* background: #ffd700 !important; */
+  background: #ebcc59 !important;
+  border-color: transparent;
+}
+.gray-colored-button::before {
+  /* background: #756f6f !important; */
+  opacity: 0;
+}
+/* .gray-colored-button::after {
+  background: red !important;
+} */
+.flexclass {
+  display: flex;
+  flex-direction: column;
+  background-color: #00000040;
+  /* transition: all 0.1s; */
+}
+.pic-height{
+  height: 4vw;
+}
+.announcement {
+  /* display: inline-block; */
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: #3c5464;
+  /* background: #ffbf00; */
+  color: rgb(2, 2, 37);
+  font-family: Arial, sans;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 0.8em;
+}
+
+.announcement a {
+  color: white;
+}
+
+.announcement a:hover {
+  color: #ebcc59;
+}
+.custom-row {
+  margin: 0;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-sticky{
+  background-color: #fff;
+  /* transition: all 0.3s; */
+}

@@ -1,0 +1,116 @@
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+.form-outer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding: 50px;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px gray;
+  border-radius: 1rem;
+  margin-top: 5vw;
+  /* align-items: center; */
+}
+.input-field {
+  border-radius: 0px;
+  border: 1px solid gray;
+}
+.form-control {
+  border: 1px solid gray;
+  border-radius: 0px;
+  box-shadow: none;
+}
+/* .blue-background {
+  background: #58d1fa !important;
+} */
+.locate-us-icons {
+  height: 100px;
+  width: 100px;
+  color: #000;
+}
+.flexclass {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
+  align-items: flex-start;
+}
+.flex-space-around {
+  justify-content: space-around !important;
+}
+.locate-us-section-content {
+  margin: 10px;
+  justify-content: left;
+}
+.locate-us-text {
+  text-align: left;
+  color: #000;
+}
+.locate-us-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.single-price-plan {
+  height: 75%;
+  box-shadow: none;
+  margin: 10px;
+}
+.bgimage {
+  width: 100%;
+  height:450px;
+  /* min-height: 65vh; */
+  min-height: auto;
+  background: no-repeat bottom center scroll;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .bgimage {
+    height: 30vh;
+    /* background-color: lightblue; */
+  }
+  .form-container{
+    width: 90%;
+  }
+  .form-control {
+    height: 100%;
+  }
+  .locate-us-icons {
+    height: 40%;
+    width: 40%;
+    color: #000;
+  }
+  .section-heading {
+    margin-bottom: 5vh;
+  }
+}
+.imager{
+  background-image: url(../../../../assets/img/banner/Contact-us-2m.jpg);
+}
+.custompadding {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.p-b-10p{
+  padding-bottom: 10%;
+}
+.banner-text{
+  display: flex;
+  /* flex-direction:column; */
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  /* position: static; */
+}
+.banner-text h2{
+  padding-bottom: 50px;
+  color: #2f0101;
+  font-weight: bold;
+}
